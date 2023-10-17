@@ -1,0 +1,11 @@
+age,gender,diabetic,children,smoker,region,claim,dt
+19,female,NO,0,Yes,southwest,171,2023-10-16
+18,male,NO,1,No,southwest,140,2023-10-16
+28,male,YES,3,No,southwest,149,2023-10-16
+33,male,YES,0,No,northwest,146,2023-10-16
+32,male,NO,0,No,northwest,176,2023-10-16
+31,female,NO,0,No,southwest,106,2023-10-16
+46,female,NO,1,No,southwest,106,2023-10-16
+37,female,NO,3,No,northwest,141,2023-10-16
+37,male,NO,2,No,northwest,151,2023-10-16
+60,female,YES,0,No,northwest,139,2023-10-16

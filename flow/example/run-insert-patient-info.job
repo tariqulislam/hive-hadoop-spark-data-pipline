@@ -1,0 +1,5 @@
+type=command
+user.to.proxy=hadoop
+command=bash -c "source ${BASERC_FILE} python3 ${APP_DIR}/insert_into_tbl_patients_children.py"
+retries=0
+retry.backoff=0

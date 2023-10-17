@@ -1,0 +1,17 @@
+SET hivevar:DATABASE_NAME=diabetic_analysis;
+SET hivevar:TBL_PATIENTS=${DATABASE_NAME}.tbl_patients;
+CREATE TABLE IF NOT EXISTS ${TBL_PATIENTS} (
+  age INTEGER,
+  gender STRING,
+  diabetic STRING,
+  children INTEGER,
+  smoker STRING,
+  region STRING,
+  claim INTEGER
+)
+PARTITIONED BY(dt STRING)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n'
+STORED AS TEXTFILE
+TBLPROPERTIES('transactional'='false');
